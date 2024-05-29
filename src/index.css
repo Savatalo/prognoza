@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  background: none repeat scroll 0 0 #66A3D2;
+  border-color:  #327CB5 #327CB5 #327CB5  #327CB5;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: #327CB5;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.submit-btn {
+  margin-left: 10px;
+  background-color: #327CB5;
+  color: #66A3D2;
+  border-radius: 40%;
+  padding: 10px 10px;
+}
+
+.submit-btn:hover {
+  margin-left: 10px;
+  background-color:#66A3D2;;
+  color: #327CB5;
+  border-radius: 20%;
+}
